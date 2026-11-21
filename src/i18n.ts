@@ -22,6 +22,12 @@ export function toggleLang() {
   document.documentElement.lang = lang.value === 'pt' ? 'pt-BR' : 'en'
 }
 
+export const cv = computed(() =>
+  lang.value === 'pt'
+    ? { href: '/Erick-Henrique-Curriculo-PT.pdf', label: 'Baixar currículo', short: 'Currículo' }
+    : { href: '/Erick-Henrique-Resume-EN.pdf', label: 'Download résumé', short: 'Résumé' },
+)
+
 export const links = {
   linkedin: 'https://www.linkedin.com/in/erick-henrique-269108340/',
   github: 'https://github.com/erickhenrique3',

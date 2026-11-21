@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue'
-import { lang, t, toggleLang } from '../i18n'
+import { cv, lang, t, toggleLang } from '../i18n'
 
 const progress = ref(0)
 const scrolled = ref(false)
@@ -32,6 +32,7 @@ const sections = ['journey', 'work', 'projects', 'contact'] as const
       </nav>
 
       <div class="nav__actions">
+        <a :href="cv.href" download class="nav__cv">{{ cv.short }} <span aria-hidden="true">↓</span></a>
         <button class="nav__lang" type="button" :aria-label="lang === 'pt' ? 'Switch to English' : 'Mudar para português'" @click="toggleLang">
           <span :class="{ on: lang === 'pt' }">PT</span>
           <span class="sep">/</span>
@@ -132,6 +133,20 @@ const sections = ['journey', 'work', 'projects', 'contact'] as const
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+.nav__cv {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink);
+  background: var(--amber);
+  border-radius: 999px;
+  padding: 8px 14px;
+  transition: background 0.2s;
+}
+
+.nav__cv:hover {
+  background: var(--amber-2);
 }
 
 .nav__lang {

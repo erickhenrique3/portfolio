@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { links, t } from '../i18n'
+import { cv, links, t } from '../i18n'
 </script>
 
 <template>
@@ -12,6 +12,7 @@ import { links, t } from '../i18n'
       <div class="contact__links" v-reveal="0.15">
         <a :href="links.linkedin" target="_blank" rel="noopener" class="btn btn--primary">LinkedIn <span aria-hidden="true">↗</span></a>
         <a :href="links.github" target="_blank" rel="noopener" class="btn">GitHub <span aria-hidden="true">↗</span></a>
+        <a :href="cv.href" download class="btn">{{ cv.label }} <span aria-hidden="true">↓</span></a>
       </div>
     </div>
 

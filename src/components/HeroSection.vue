@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref } from 'vue'
-import { links, t } from '../i18n'
+import { cv, links, t } from '../i18n'
 
 const roleIndex = ref(0)
 let timer = 0
@@ -40,6 +40,7 @@ const role = computed(() => t.value.hero.roles[roleIndex.value % t.value.hero.ro
         <a href="#projects" class="btn btn--primary">{{ t.hero.ctaProjects }} <span aria-hidden="true">→</span></a>
         <a :href="links.linkedin" target="_blank" rel="noopener" class="btn">LinkedIn</a>
         <a :href="links.github" target="_blank" rel="noopener" class="btn">GitHub</a>
+        <a :href="cv.href" download class="btn">{{ cv.label }} <span aria-hidden="true">↓</span></a>
       </div>
     </div>
 
