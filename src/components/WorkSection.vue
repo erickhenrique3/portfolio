@@ -28,14 +28,6 @@ import { t } from '../i18n'
           </div>
         </li>
       </ol>
-
-      <div class="edu" v-reveal>
-        <span class="eyebrow">{{ t.work.education.eyebrow }}</span>
-        <div>
-          <h3 class="edu__title">{{ t.work.education.title }}</h3>
-          <p class="edu__text">{{ t.work.education.text }}</p>
-        </div>
-      </div>
     </div>
   </section>
 </template>
@@ -129,25 +121,6 @@ import { t } from '../i18n'
   color: var(--amber-2);
 }
 
-.edu {
-  display: flex;
-  gap: 48px;
-  align-items: baseline;
-  margin-top: 64px;
-  flex-wrap: wrap;
-}
-
-.edu__title {
-  font-family: var(--serif);
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.edu__text {
-  color: var(--muted);
-  font-size: 15px;
-}
-
 @media (max-width: 760px) {
   .work__list {
     grid-template-columns: 1fr;
@@ -157,11 +130,6 @@ import { t } from '../i18n'
   .work__item:nth-child(even) {
     padding: 28px 0;
     border-left: none;
-  }
-
-  .edu {
-    gap: 12px;
-    flex-direction: column;
   }
 }
 </style>

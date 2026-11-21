@@ -18,7 +18,7 @@ onMounted(() => {
 })
 onUnmounted(() => window.removeEventListener('scroll', onScroll))
 
-const sections = ['work', 'projects', 'stack', 'contact'] as const
+const sections = ['journey', 'work', 'projects', 'contact'] as const
 </script>
 
 <template>

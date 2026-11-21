@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.vue'
 import CursorDot from './components/CursorDot.vue'
 import HeroSection from './components/HeroSection.vue'
 import StatementSection from './components/StatementSection.vue'
+import JourneySection from './components/JourneySection.vue'
 import NumbersSection from './components/NumbersSection.vue'
 import WorkSection from './components/WorkSection.vue'
 import ProjectsSection from './components/ProjectsSection.vue'
@@ -16,6 +17,7 @@ import ContactSection from './components/ContactSection.vue'
   <main>
     <HeroSection />
     <StatementSection />
+    <JourneySection />
     <NumbersSection />
     <WorkSection />
     <ProjectsSection />

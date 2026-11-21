@@ -29,7 +29,7 @@ export const links = {
 
 const content = {
   pt: {
-    nav: { work: 'Experiência', projects: 'Projetos', stack: 'Stack', contact: 'Contato' },
+    nav: { journey: 'Trajetória', work: 'Experiência', projects: 'Projetos', stack: 'Stack', contact: 'Contato' },
     hero: {
       kicker: 'Desenvolvedor Full Stack · Paraná, Brasil',
       focus: 'Foco em',
@@ -41,6 +41,44 @@ const content = {
     },
     statement: {
       text: 'Gosto de sistemas que *aguentam* *escala*, de código que o próximo dev *entende* e de *IA* que resolve problema *real*.',
+    },
+    journey: {
+      eyebrow: 'Trajetória',
+      title: 'Comecei aos 14. Entrei no mercado aos 15.',
+      intro:
+        'Minha carreira nasceu dentro da Greenn: fiz o curso que a empresa criou para formar desenvolvedores e, no fim dele, fui contratado. Desde então cresço junto com os produtos.',
+      steps: [
+        {
+          when: '2023',
+          age: '14 anos',
+          title: 'Greenn School',
+          text: 'Curso de 6 meses que a Greenn oferece para formar desenvolvedores. Foi ali que escrevi minhas primeiras linhas de HTML, CSS, JavaScript, PHP, Laravel e Vue.',
+        },
+        {
+          when: 'mai 2024',
+          age: '15 anos',
+          title: 'Contratado pela Greenn',
+          text: 'Saí do curso direto para o time de desenvolvimento, como desenvolvedor full stack, entregando features, melhorias e correções em produção.',
+        },
+        {
+          when: '2024 — 2025',
+          age: '',
+          title: 'Ganhando os produtos',
+          text: 'Passei a atuar no CRM SaaS, na área de membros, no ERP e na extensão de Chrome, com integrações como Exact Spotter, Meta e filas com RabbitMQ.',
+        },
+        {
+          when: '2026',
+          age: '',
+          title: 'Dono de áreas inteiras',
+          text: 'Performance, entregabilidade de e-mail e IA aplicada: ferramentas MCP, agentes que moderam ofertas e resolvem atendimentos.',
+        },
+        {
+          when: 'Hoje',
+          age: '',
+          title: 'Próximo desafio',
+          text: 'Mais de 1.900 commits depois, procuro um novo time para continuar crescendo em back-end, arquitetura e IA.',
+        },
+      ],
     },
     numbers: {
       title: 'Na Greenn, em números',
@@ -91,11 +129,6 @@ const content = {
           text: 'Integrações síncronas e assíncronas (RabbitMQ, webhooks) com CRMs externos, Meta Lead Ads/CAPI, checkout e área de membros.',
         },
       ],
-      education: {
-        eyebrow: 'Formação',
-        title: 'Greenn School',
-        text: 'Formação em desenvolvimento web · out 2023 — mai 2024',
-      },
     },
     projects: {
       eyebrow: 'Projetos pessoais',
@@ -148,7 +181,7 @@ const content = {
     footer: 'Feito com Vue 3, TypeScript e Vite.',
   },
   en: {
-    nav: { work: 'Experience', projects: 'Projects', stack: 'Stack', contact: 'Contact' },
+    nav: { journey: 'Journey', work: 'Experience', projects: 'Projects', stack: 'Stack', contact: 'Contact' },
     hero: {
       kicker: 'Full Stack Developer · Paraná, Brazil',
       focus: 'Focused on',
@@ -160,6 +193,44 @@ const content = {
     },
     statement: {
       text: 'I like systems that *handle* *scale*, code the next developer *understands*, and *AI* that solves *real* problems.',
+    },
+    journey: {
+      eyebrow: 'Journey',
+      title: 'Started at 14. Hired at 15.',
+      intro:
+        'My career was born inside Greenn: I took the program the company created to train developers and was hired right after it. Since then I have grown together with the products.',
+      steps: [
+        {
+          when: '2023',
+          age: '14 years old',
+          title: 'Greenn School',
+          text: 'A 6-month program Greenn runs to train new developers. That is where I wrote my first lines of HTML, CSS, JavaScript, PHP, Laravel and Vue.',
+        },
+        {
+          when: 'May 2024',
+          age: '15 years old',
+          title: 'Hired by Greenn',
+          text: 'I went straight from the program to the development team as a full stack developer, shipping features, improvements and fixes to production.',
+        },
+        {
+          when: '2024 — 2025',
+          age: '',
+          title: 'Owning more products',
+          text: 'I started working on the SaaS CRM, the members area, the ERP and the Chrome extension, with integrations such as Exact Spotter, Meta and RabbitMQ queues.',
+        },
+        {
+          when: '2026',
+          age: '',
+          title: 'Owning whole areas',
+          text: 'Performance, email deliverability and applied AI: MCP tools and agents that moderate offers and resolve support cases.',
+        },
+        {
+          when: 'Now',
+          age: '',
+          title: 'Next challenge',
+          text: 'More than 1,900 commits later, I am looking for a new team to keep growing in back-end, architecture and AI.',
+        },
+      ],
     },
     numbers: {
       title: 'At Greenn, by the numbers',
@@ -210,11 +281,6 @@ const content = {
           text: 'Synchronous and asynchronous integrations (RabbitMQ, webhooks) with external CRMs, Meta Lead Ads/CAPI, checkout and the members area.',
         },
       ],
-      education: {
-        eyebrow: 'Education',
-        title: 'Greenn School',
-        text: 'Web development program · Oct 2023 — May 2024',
-      },
     },
     projects: {
       eyebrow: 'Personal projects',
