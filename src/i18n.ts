@@ -37,7 +37,7 @@ const content = {
       intro:
         'Construo produtos web de ponta a ponta com PHP, Laravel, Vue e TypeScript, e coloco IA para trabalhar dentro deles.',
       ctaProjects: 'Ver projetos',
-      available: 'Aberto a oportunidades',
+      available: 'Desenvolvedor Full Stack na Greenn',
     },
     statement: {
       text: 'Gosto de sistemas que *aguentam* *escala*, de código que o próximo dev *entende* e de *IA* que resolve problema *real*.',
@@ -75,8 +75,8 @@ const content = {
         {
           when: 'Hoje',
           age: '',
-          title: 'Próximo desafio',
-          text: 'Mais de 1.900 commits depois, procuro um novo time para continuar crescendo em back-end, arquitetura e IA.',
+          title: 'Ainda começando',
+          text: 'Mais de 1.900 commits depois, sigo evoluindo em back-end, arquitetura de software e IA aplicada, com a mesma curiosidade do primeiro dia.',
         },
       ],
     },
@@ -175,8 +175,8 @@ const content = {
     },
     contact: {
       eyebrow: 'Contato',
-      title: 'Vamos construir o próximo sistema juntos?',
-      text: 'Estou aberto a vagas de Desenvolvedor Full Stack ou Back-end Pleno, remoto ou híbrido.',
+      title: 'Vamos conversar?',
+      text: 'Gosto de trocar ideias sobre back-end, arquitetura de software e IA aplicada. Me chama no LinkedIn.',
     },
     footer: 'Feito com Vue 3, TypeScript e Vite.',
   },
@@ -189,7 +189,7 @@ const content = {
       intro:
         'I build web products end to end with PHP, Laravel, Vue and TypeScript, and put AI to work inside them.',
       ctaProjects: 'See projects',
-      available: 'Open to opportunities',
+      available: 'Full Stack Developer at Greenn',
     },
     statement: {
       text: 'I like systems that *handle* *scale*, code the next developer *understands*, and *AI* that solves *real* problems.',
@@ -227,8 +227,8 @@ const content = {
         {
           when: 'Now',
           age: '',
-          title: 'Next challenge',
-          text: 'More than 1,900 commits later, I am looking for a new team to keep growing in back-end, architecture and AI.',
+          title: 'Just getting started',
+          text: 'More than 1,900 commits later, I keep growing in back-end, software architecture and applied AI, with the same curiosity as on day one.',
         },
       ],
     },
@@ -327,8 +327,8 @@ const content = {
     },
     contact: {
       eyebrow: 'Contact',
-      title: 'Shall we build the next system together?',
-      text: 'I am open to Full Stack or Back-end (mid-level) roles, remote or hybrid.',
+      title: 'Let’s talk?',
+      text: 'I enjoy talking about back-end, software architecture and applied AI. Reach out on LinkedIn.',
     },
     footer: 'Built with Vue 3, TypeScript and Vite.',
   },
