@@ -55,7 +55,7 @@ const content = {
           text: 'Curso de 6 meses que a Greenn oferece para formar desenvolvedores. Foi ali que escrevi minhas primeiras linhas de HTML, CSS, JavaScript, PHP, Laravel e Vue.',
         },
         {
-          when: 'mai 2024',
+          when: 'abr 2024',
           age: '15 anos',
           title: 'Contratado pela Greenn',
           text: 'Saí do curso direto para o time de desenvolvimento, como desenvolvedor full stack, entregando features, melhorias e correções em produção.',
@@ -94,7 +94,7 @@ const content = {
       eyebrow: 'Experiência',
       role: 'Desenvolvedor Full Stack',
       company: 'Greenn',
-      period: 'mai 2024 — hoje',
+      period: 'abr 2024 — hoje',
       summary:
         'Trabalho num ecossistema de produtos digitais usado por milhares de clientes: CRM SaaS multi-tenant (e-mail marketing, páginas e automações), painel do produtor, ERP interno, área de membros e uma extensão de Chrome que leva o CRM para o WhatsApp Web.',
       items: [
@@ -207,7 +207,7 @@ const content = {
           text: 'A 6-month program Greenn runs to train new developers. That is where I wrote my first lines of HTML, CSS, JavaScript, PHP, Laravel and Vue.',
         },
         {
-          when: 'May 2024',
+          when: 'Apr 2024',
           age: '15 years old',
           title: 'Hired by Greenn',
           text: 'I went straight from the program to the development team as a full stack developer, shipping features, improvements and fixes to production.',
@@ -246,7 +246,7 @@ const content = {
       eyebrow: 'Experience',
       role: 'Full Stack Developer',
       company: 'Greenn',
-      period: 'May 2024 — now',
+      period: 'Apr 2024 — now',
       summary:
         'I work on an ecosystem of digital products used by thousands of customers: a multi-tenant SaaS CRM (email marketing, landing pages and automations), the seller dashboard, an internal ERP, a members area and a Chrome extension that brings the CRM into WhatsApp Web.',
       items: [
